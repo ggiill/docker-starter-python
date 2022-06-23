@@ -32,6 +32,10 @@ This file!
 
 You might be familiar with this type of file, but you might also be used to installing packages à la carte via `pip install <package>`. Using a `requirements.txt` allows us to specify all the Python packages and versions that our application will need to run.
 
+## Prerequisites
+
+You must have Docker installed on your machine to run `docker` commands. Docker makes versions for Linux, Mac, and Windows. They're available [here](https://www.docker.com/get-started/).
+
 ## Steps
 
 1. Clone this repo and rename it per your project
@@ -42,3 +46,4 @@ Then:
 
 - To build an image of this app, run `make build`
 - To launch an interative shell inside the container, run `make shell`
+- To run the app in the foreground, run `make run`
